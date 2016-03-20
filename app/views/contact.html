@@ -11,7 +11,7 @@
 	</div>
 	<ul class="contact-info">
 		<li>
-			<a href="#">
+			<a ng-click="ContactCtrl.showModal()">
 				<span class="glyphicon glyphicon-envelope">
 					<p id="contact-info-font">info@alpha-omega-inc.net</p>
 				</span>
@@ -32,4 +32,19 @@
 			</span>
 		</li>
 	</ul>
+</div>
+
+<!-- Mail Modal -->
+<div id="mailModal" class="modal fade" role="dialog">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h3 class="modal-title">Contact Us</h3>
+			</div>
+			<div class="modal-body">
+				<!-- Mail Form -->
+
+			</div>
+		</div>
+	</div>
 </div>

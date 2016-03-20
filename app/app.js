@@ -20,7 +20,9 @@
 				controllerAs: 'HomeCtrl'
 			})
 			.when('/contact', {
-				templateUrl: 'app/views/contact.html'
+				templateUrl: 'app/views/contact.html',
+				controller: 'ContactController',
+				controllerAs: 'ContactCtrl'
 			})
 			.otherwise({
 				redirectTo: '/home'

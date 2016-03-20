@@ -5,6 +5,8 @@
 		<!-- Load css files -->
 		<link rel="stylesheet" href="libs/css/bootstrap.min.css">
 		<link rel="stylesheet" href="libs/css/custom.css">
+
+		<!-- Load fonts -->
 		<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300'>
 
 		<!-- Load js files -->
@@ -17,14 +19,19 @@
 		<!-- Modules -->
 		<script type="text/javascript" src="/app/controllers/controllers.js"></script>
 		<script type="text/javascript" src="/app/controllers/homeController.js"></script>
+		<script type="text/javascript" src="app/controllers/contactController.js"></script>
+
 		<script type="text/javascript" src="/app/components/components.js"></script>
 		<script type="text/javascript" src="/app/components/navbar/navbar.js"></script>
+		<script type="text/javascript" src="/app/components/footer-bar/footer-bar.js"></script>
 		<script type="text/javascript" src="/app/app.js"></script>
 	</head>
 
 	<body>
+		<!-- Directives -->
 		<nav-bar></nav-bar>
 		<ng-view></ng-view>
+		<footer-bar></footer-bar>
 	</body>
 	
 </html>

@@ -19,6 +19,21 @@ a {
 	vertical-align: middle;
 }
 
+/* ---- FOOTER ---- */
+#footer {
+	position: fixed;
+	height:50px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+}
+
+#footer-text {
+	vertical-align: middle;
+	text-align: center;
+}
+
 /* ---- CONTACT ----*/
 #container-contact {
 	text-align: center;
@@ -31,8 +46,6 @@ a {
 
 #contact-header {
 	font-size: 60px;
-	font-weight:;
-
 }
 
 #contact-sub-header {
@@ -45,7 +58,6 @@ a {
 	text-decoration: underline;
 	padding: 10px;
 	font-size: 30px;
-	font-weight: bold;
 }
 
 #contact-info-font {
