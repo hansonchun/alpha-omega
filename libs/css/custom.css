@@ -1,0 +1,70 @@
+body {
+	font-family:'Open Sans Condensed', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+/* ---- NAVBAR ---- */
+.navbar-custom {
+	font-size: 20px;
+	height: 100px;
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}	
+
+.navbar-text  {
+	vertical-align: middle;
+}
+
+/* ---- CONTACT ----*/
+#container-contact {
+	text-align: center;
+	background-color: #123;
+	color: #fff;
+	padding: 20px;
+	margin: 0px;
+	border: 0px;
+}
+
+#contact-header {
+	font-size: 60px;
+	font-weight:;
+
+}
+
+#contact-sub-header {
+	padding: 10px;
+	color: #808080;
+	font-size: 25px;
+}
+
+#contact-office {
+	text-decoration: underline;
+	padding: 10px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#contact-info-font {
+	font-family:'Open Sans Condensed', sans-serif;
+	padding: 10px;
+	font-size: 20px;
+	list-style-type: none;
+}
+
+.contact-info {
+	list-style-type: none;
+	padding: 10px;
+	margin: 0px;
+	font-size: 10px;
+}
+
+/* ---- GLYPHICONS ----*/
+.glyphicon {
+	font-size: 30px;
+}
+
+
