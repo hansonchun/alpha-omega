@@ -1,10 +1,11 @@
 body {
-	font-family:'Open Sans Condensed', sans-serif;
+	font-family: Code-Pro-Light-Demo;
 }
 
 a {
 	color: inherit;
 }
+
 
 /* ---- NAVBAR ---- */
 .navbar-custom {
@@ -20,19 +21,62 @@ a {
 }
 
 /* ---- FOOTER ---- */
-#footer {
-	position: fixed;
-	height:50px;
-    bottom:0px;
-    left:0px;
-    right:0px;
-    margin-bottom:0px;
+.footer-custom {
+	font-size: 15px;
+	height: 50px;
+	padding: 10px;
+	margin: 0px;
+	border: 0px;
 }
 
 #footer-text {
 	vertical-align: middle;
 	text-align: center;
 }
+
+/* ---- PRODUCTS ----*/
+
+
+/* ---- PARTNERS ----*/
+#container-partners {
+	text-align: center;
+	background-color: #123;
+	color: #fff;
+	padding: 20px;
+}
+
+#partners-header {
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
+	font-size: 60px;
+}
+
+#partners-sub-header {
+	font-family:'Open Sans Condensed', sans-serif;
+	padding: 10px;
+	font-size: 25px;
+	color: #808080;
+}
+
+#partner {
+	color: #000000;
+	background-color:#fff;
+	font-size: 40px;
+	padding: 10px;
+	text-align: center;
+	border: 10px solid #123;
+}
+
+#partner-img {
+	height: 200px;
+	width: 200px;
+}
+
+#partner-img-bsquare {
+	height: 200px;
+	width: 300px;
+}
+
 
 /* ---- CONTACT ----*/
 #container-contact {
@@ -45,17 +89,19 @@ a {
 }
 
 #contact-header {
+	text-shadow: 2px 2px 4px #000000;
+	font-weight: bold;
 	font-size: 60px;
 }
 
 #contact-sub-header {
+	font-family:'Open Sans Condensed', sans-serif;
 	padding: 10px;
 	color: #808080;
 	font-size: 25px;
 }
 
 #contact-office {
-	text-decoration: underline;
 	padding: 10px;
 	font-size: 30px;
 }

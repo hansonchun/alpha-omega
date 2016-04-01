@@ -19,6 +19,14 @@
 				controller: 'HomeController',
 				controllerAs: 'HomeCtrl'
 			})
+			.when('/products', {
+				templateUrl: 'app/views/products.html'
+			})
+			.when('/partners', {
+				templateUrl: 'app/views/partners.html',
+				controller: 'PartnersController',
+				controllerAs: 'PartnersCtrl'
+			})
 			.when('/contact', {
 				templateUrl: 'app/views/contact.html',
 				controller: 'ContactController',
