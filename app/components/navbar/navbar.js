@@ -20,23 +20,13 @@
 		} 
 
 		// Inject dependencies here
-		NavBarController.$inject = [];
+		NavBarController.$inject = ['$translate'];
 
-		function NavBarController() {
+		function NavBarController($translate) {
 			var vm = this;
 
-			var dictionary = {
-				''
-			}
-
-
-		   /*
-			* @desc - This function toggles the language between EN and CH
-			*
-			*/
-
-			vm.ToggleLanguage = function() {
-				console.log('Hello')
+			vm.ToggleLang = function(lang) {
+				$translate.use(lang);
 			}
 
 		}

@@ -1,18 +1,18 @@
 <nav class="navbar navbar-default navbar-custom">
-	<div data-translate="navbar" class="container-fluid">
+	<div class="container-fluid">
 		<div class="navbar-header navbar-text">
 			<a class="navbar-brand" href="/#/home">ALPHA OMEGA</a>
 		</div>
 		<ul class="nav navbar-nav navbar-text">
-			<li><a href ng-click="navBarCtrl.ToggleLanguage()">en</a></li>
-			<li><a href="#">ch</a></li>
+			<li><a href ng-click="navBarCtrl.ToggleLang('en')">en</a></li>
+			<li><a href ng-click="navBarCtrl.ToggleLang('ch')">中文</a></li>
 		</ul>
 		<ul class="nav pull-right navbar-nav navbar-text">
-			<li><a href="#">ABOUT</a></li>
-			<li><a href="#/products">PRODUCTS</a></li>
-			<li><a href="#">SERVICES</a></li>
-			<li><a href="#/partners">PARTNERS</a></li>
-			<li><a href="#/contact">CONTACT</a></li>
+			<li><a href="#">{{ 'navbar.ABOUT' | translate}}</a></li>
+			<li><a href="#/products">{{'navbar.PRODUCTS' | translate}}</a></li>
+			<li><a href="#">{{'navbar.SERVICES' | translate}}</a></li>
+			<li><a href="#/partners">{{'navbar.PARTNERS' | translate}}</a></li>
+			<li><a href="#/contact">{{'navbar.CONTACT' | translate}}</a></li>
 		</ul>
 	</div>
 </nav>
