@@ -33,6 +33,11 @@
 				controller: 'ContactController',
 				controllerAs: 'ContactCtrl'
 			})
+			.when('/services', {
+				templateUrl: 'app/views/services.html',
+				controller: 'ServiceController',
+				controllerAs: 'ServiceCtrl'
+			})
 			.otherwise({
 				redirectTo: '/home'
 			});
@@ -45,6 +50,14 @@
 					SERVICES: 'SERVICES',
 					PARTNERS: 'PARTNERS',
 					CONTACT: 'CONTACT'
+				},
+
+				'products': {
+					HEADER: 'PRODUCTS'
+				},
+
+				'services': {
+					HEADER: 'SERVICES'
 				},
 
 				'partners': {
@@ -65,6 +78,15 @@
 					PARTNERS: '合作伙伴',
 					CONTACT: '联絡我們'
 				},
+				
+				'products': {
+					HEADER: '产品'
+				},
+
+				'services': {
+					HEADER: '服务'
+				},
+
 
 				'partners': {
 					HEADER: '合作伙伴'
