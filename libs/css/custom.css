@@ -1,5 +1,6 @@
 body {
-	font-family: Code-Pro-Light-Demo;
+	font-family: 'Pontano Sans', sans-serif;
+	padding-top: 80px;
 }
 
 a {
@@ -8,16 +9,35 @@ a {
 
 
 /* ---- NAVBAR ---- */
-#navbar-custom {
-	vertical-align: middle;
-	height: 35px;
-	font-size: 19px;
-}	
-
-#navbar-custom a{
-	line-height: 0px;
+.navbar-fixed-top {
+	min-height: 80px;
+	background-color: #262626;
 }
 
+
+.navbar-nav > li > a {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	line-height: 80px;
+	font-size: 15px;
+}
+
+@media (max-width: 767px) {
+    .navbar-nav > li > a {
+    line-height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+	}
+}
+
+.navbar-brand {
+	line-height: 50px
+}
+
+.navbar .nav > li > a {
+	color: #fff;
+	font-size: 17px;
+}
 
 /* ---- FOOTER ---- */
 .footer-custom {
@@ -26,44 +46,40 @@ a {
 	padding: 10px;
 	margin: 0px;
 	border: 0px;
+	background-color: #262626;
 }
 
 #footer-text {
 	vertical-align: middle;
 	text-align: center;
+	color: #fff;
 }
 
 /* ---- PRODUCTS ----*/
 #container-products {
-	text-align: center;
-	background-color: #123;
-	color: #fff;
+	text-align: left;
+	background-color: #fff;
+	color: #000000;
 	padding: 20px;
-	background-image: url('/imgs/bg/wood.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
 #products-header {
 	font-weight: bold;
-	font-size: 60px;
+	font-size: 50px;
 }
 
 #products-sub-header {
-	font-family:'Open Sans Condensed', sans-serif;
 	padding: 10px;
-	font-size: 25px;
-	color: #fff;
+	font-size: 20px;
+	color: #000000;
 }
 
 #product {
-	font-family:'Open Sans Condensed', sans-serif;
 	color: #000000;
 	background-color:#fff;
 	font-size: 28px;
 	text-align: center;
 	padding: 30px;
-
 }
 
 
@@ -112,56 +128,53 @@ a {
 	height: 200px;
 }
 
-/* ---- SERVICES ----*/
-#container-services {
+/* ---- ABOUT ----*/
+#container-about {
 	text-align: center;
-	color: #fff;
+	color: #000000;
 	padding: 20px;
 	background-image: url('/imgs/bg/building.png');
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: 48% 30%;
+
 }
 
-#services-header {
+#about-header {
 	text-shadow: 2px 2px 4px #000000;
 	font-weight: bold;
 	font-size: 60px;
 }
 
 
-#services-text-1 {
+#about-text-1 {
+	color: #fff;
 	background-color: #808080;
-	opacity: 0.6;
-	font-family:'Open Sans Condensed', sans-serif;
-	font-size: 22px;
+	font-size: 20px;
 	text-align: left;
 	padding: 30px;
+	opacity: 0.7;
 }
 
 
 /* ---- PARTNERS ----*/
 #container-partners {
-	text-align: center;
-	background-color: #123;
-	color: #fff;
+	text-align: left;
+	background-color: #fff;
+	color: #000000;
 	padding: 22px;
-	background-image: url('/imgs/bg/wood.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 }
 
+
 #partners-header {
-	text-shadow: 2px 2px 4px #000000;
+	font-size: 50px;
 	font-weight: bold;
-	font-size: 60px;
 }
 
 #partners-sub-header {
-	font-family:'Open Sans Condensed', sans-serif;
 	padding: 10px;
-	font-size: 25px;
-	color: #fff;
+	font-size: 20px;
+	color: #000000;
 }
 
 #partner {
@@ -191,9 +204,7 @@ a {
 	padding: 20px;
 	margin: 0px;
 	border: 0px;
-	background-image: url('/imgs/bg/sun.png');
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+
 }
 
 #contact-header {

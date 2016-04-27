@@ -53,7 +53,7 @@
 				},
 
 				'products': {
-					HEADER: 'PRODUCTS'
+					HEADER: 'Products'
 				},
 
 				'services': {
@@ -61,7 +61,7 @@
 				},
 
 				'partners': {
-					HEADER: 'OUR PARTNERS'
+					HEADER: 'Our Partners'
 				},
 
 				'contact': {
