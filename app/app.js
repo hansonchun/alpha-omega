@@ -33,10 +33,10 @@
 				controller: 'ContactController',
 				controllerAs: 'ContactCtrl'
 			})
-			.when('/services', {
-				templateUrl: 'app/views/services.html',
-				controller: 'ServiceController',
-				controllerAs: 'ServiceCtrl'
+			.when('/about', {
+				templateUrl: 'app/views/about.html',
+				controller: 'AboutController',
+				controllerAs: 'AboutCtrl'
 			})
 			.otherwise({
 				redirectTo: '/home'
@@ -65,7 +65,7 @@
 				},
 
 				'contact': {
-					HEADER: 'CONTACT US'
+					HEADER: 'Contact Us'
 				}
 				
 			})

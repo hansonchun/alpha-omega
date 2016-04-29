@@ -11,13 +11,18 @@
 
 			var vm = this;
 
-		   /**
-		 	* @desc - This function shows the mail modal.
-			*/
-			vm.showModal = function() {
-				console.log('hello');
-				$('#mailModal').modal('show');
+			vm.contact = {
+				company: '',
+				name: '',
+				email: '',
+				phone: '', 
+				comments: '',
 			}
+
+			vm.SubmitForm = function() {
+				console.log(vm.contact)
+			}
+
 
 		}
 })();
